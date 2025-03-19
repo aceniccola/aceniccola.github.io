@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-layout: catagories
+layout: categories
 permalink: /posts/
 author_profile: true
 ---
