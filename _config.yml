@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Andrew Ceniccola"
-  avatar : "/assets/images/photo.jpg"
+  avatar : "/assets/images/new.jpg"
   bio    : "Machine Learning Researcher."
   links:
     - label: "GitHub"
