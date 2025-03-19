@@ -50,7 +50,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  # - jekyll-feed
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -74,9 +74,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/andrew-ceniccola-752176295/"
-    - label: "Feed"
-      icon: "fab fa-fw fa-feed"
-      url: "https://aceniccola.github.io"
 
 defaults:
   # _posts
