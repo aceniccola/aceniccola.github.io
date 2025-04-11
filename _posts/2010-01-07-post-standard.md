@@ -29,4 +29,4 @@ The next step is to analyze the arguments in the context of their possible respo
 
 Therefore we have an analyser node that passes it on to either a tool node or, if it has decided on the responses that most aptly fit, passes it to the verification node which looks at each response more strictly and sends it back to the origional agent with feedback if it finds a descrepency. The key is to make sure that both agents see all the summaries informed by the summarizer and that the first llm tends to initially overinclude responses and the verifier is overly critical. Then the inital agent and the verifier will eventually come to a conscensis. With both of them sending back their rationalities for why they disagree with each other, they can better approach the actual solution. 
 
-I learned in this hackathon that 
+I learned in this hackathon that, not only is it 
