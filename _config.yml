@@ -70,10 +70,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/aceniccola"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/andrew-ceniccola-752176295/"
+      url: "https://www.linkedin.com/in/aceniccola"
 
 defaults:
   # _posts
