@@ -1,0 +1,12 @@
+What makes startups so exciting and lively? 
+
+Why are we so attracted to the unknown, yet unwilling to venture there alone?
+
+It feels sometimes like I am Sisyphus pushing my boulder up the hill in my battles with myself to put me out there. 
+Like the universe wants everyone but me to succeed. 
+But I get opportunities too. 
+
+I get to build cells, work on platforms, and start building life in pieces of information. 
+I get to live and love and be free. 
+But it is hard.
+But it is great.
