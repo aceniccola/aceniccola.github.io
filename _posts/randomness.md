@@ -14,3 +14,8 @@ when we build something interesting we build something that differs from another
 
 we must have a common base world model in order to exchange with others
 we therefore can build a general intelligence frim a general world model
+
+the flame encodes all of the book within itself.
+to us the book is more interesting than the flame. why?
+the flame comtains too much noise, it also encodes the books material and is affected by the conditions of the room
+it does not read us the book at our own pace
