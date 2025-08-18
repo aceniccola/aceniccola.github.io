@@ -1,0 +1,1 @@
+our perspectives that things like the increase in thw entropy if the universe come diertly from the fact that we have a perspective at allcome from 
