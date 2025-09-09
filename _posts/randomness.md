@@ -19,3 +19,6 @@ the flame encodes all of the book within itself.
 to us the book is more interesting than the flame. why?
 the flame comtains too much noise, it also encodes the books material and is affected by the conditions of the room
 it does not read us the book at our own pace
+
+
+is there a difference between the randomness in exploration and the randomness in concept connection?
