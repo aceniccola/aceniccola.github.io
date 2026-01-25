@@ -100,7 +100,7 @@ author_profile: false
     formData.append('file', file);
     
     try {
-      const res = await fetch('https://your-app.onrender.com/detect', {
+      const res = await fetch('https://mutable-camryn-arborescently.ngrok-free.dev/detect', {
         method: 'POST',
         body: formData
       });
