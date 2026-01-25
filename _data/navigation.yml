@@ -3,6 +3,8 @@ main:
     url: /projects/
   - title: "Posts"
     url: /posts/
+  - title: "Audio Detect"
+    url: /audio-detect/
   #- title: "Publications"
   #  url: /publications/
   #- title: "About"
