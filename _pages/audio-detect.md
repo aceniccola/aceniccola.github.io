@@ -67,7 +67,7 @@ author_profile: false
 
 <div class="terminal-container">
   <div class="terminal-title">
-    === AUDIO DETECTION TERMINAL ===
+    === COPYRIGHT DETECTION PROGRAM ===
   </div>
   
   <div>
