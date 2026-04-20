@@ -81,4 +81,4 @@ __global__ void tiled_gemm_kernel(const float* A, const float* B, float* C, int 
     // After sliding across all tiles, the dot product is complete.
     // We do ONE write to slow Global Memory to store the final result.
     C[row * width + col] = c_value;
-} ```
+}
