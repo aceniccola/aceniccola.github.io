@@ -80,5 +80,25 @@ __global__ void tiled_gemm_kernel(const float* A, const float* B, float* C, int 
     // -------------------------------------------------------
     // After sliding across all tiles, the dot product is complete.
     // We do ONE write to slow Global Memory to store the final result.
-    C[row * width + col] = c_value;
+     C[row * width + col] = c_value;
+}
+
+#### --- ####
+void launch_tiled_gemm(float* d_A, float* d_B, float* d_C, int width) {
+    // 1. Define the Block Dimensions
+    // A block of 32x32 threads = 1024 threads total (the max limit for most GPUs)
+    dim3 threadsPerBlock(TILE_SIZE, TILE_SIZE);
+
+    // 2. Define the Grid Dimensions
+    // How many blocks do we need to cover the entire matrix?
+    // E.g., if width is 4096, 4096 / 32 = 128 blocks per dimension.
+    int blocks_x = width / TILE_SIZE;
+    int blocks_y = width / TILE_SIZE;
+    dim3 numBlocks(blocks_x, blocks_y);
+
+    // 3. Launch the Kernel
+    tiled_gemm_kernel<<<numBlocks, threadsPerBlock>>>(d_A, d_B, d_C, width);
+
+    // 4. Wait for GPU to finish
+    cudaDeviceSynchronize();
 }
